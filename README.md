@@ -19,7 +19,9 @@ i used this tool to easily create the certificates, https://smallstep.com/docs/s
 
 
 ./step certificate create "cloudlyy 01" cloudlyy01-ca.crt cloudlyy01-ca.key --profile root-ca
+
 ./step certificate create "cloudlyy01 client01" cloudly01-client.crt cloudly01-client.key --profile leaf --ca .\cloudly01-ca.crt --ca-key .\cloudly01-ca.key
+
 ./step crypto change-pass .\cloudly01-client.key  #remove password
 
 Keeping the Connection Alive
