@@ -1,4 +1,5 @@
 Connecting Non-AWS External Servers to AWS Resources using IAM Roles Anywhere
+
 Recently, I successfully enabled remote servers outside the AWS Cloud to access AWS resources such as Amazon S3 by using AWS IAM Roles Anywhere, This implementation adheres to AWS best practices by acquiring temporary credentials via AWS STS, avoiding the use of long-lived credentials.
 
 You can read more about it in this URL https://docs.aws.amazon.com/rolesanywhere/latest/userguide/introduction.html
